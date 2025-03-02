@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 16px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li {
+  margin-inline: 24px;
+}
+
+.signin-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin-section button {
+  margin-inline: 8px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+header .signup-button {
+  color: var(--primary-color);
+}
