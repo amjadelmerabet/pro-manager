@@ -4,6 +4,8 @@ import Header from './components/header/header'
 import Overview from './components/overview/Overview'
 import Features from './components/features/Features'
 import DiveDeeper from './components/dive-deeper/DiveDeeper'
+import Newsletter from './components/newsletter/Newsletter'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -14,7 +16,9 @@ function App() {
         <Overview />
         <Features />
         <DiveDeeper />
+        <Newsletter />
       </main>
+      <Footer />
     </div>
   )
 }

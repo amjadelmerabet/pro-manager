@@ -1,3 +1,5 @@
+import { FaRegFileImage } from "react-icons/fa";
+
 import "./DiveDeeper.css";
 
 export default function DiveDeeper() {
@@ -6,7 +8,9 @@ export default function DiveDeeper() {
       <h2 className="title poppins-bold">Dive Deeper</h2>
       <div className="dive-deeper">
         <div className="feature">
-          <div className="screenshot"></div>
+          <div className="screenshot">
+            <FaRegFileImage className="attachment-icon" />
+          </div>
           <div className="feature-number-circle">
             <div className="feature-number poppins-bold">1</div>
           </div>
@@ -56,10 +60,14 @@ export default function DiveDeeper() {
           <div className="feature-number-circle">
             <div className="feature-number poppins-bold">2</div>
           </div>
-          <div className="screenshot"></div>
+          <div className="screenshot">
+            <FaRegFileImage className="attachment-icon" />
+          </div>
         </div>
         <div className="feature">
-          <div className="screenshot"></div>
+          <div className="screenshot">
+            <FaRegFileImage className="attachment-icon" />
+          </div>
           <div className="feature-number-circle">
             <div className="feature-number poppins-bold">3</div>
           </div>
@@ -112,9 +120,14 @@ export default function DiveDeeper() {
           <div className="feature-number-circle">
             <div className="feature-number poppins-bold">4</div>
           </div>
-          <div className="screenshot"></div>
+          <div className="screenshot">
+            <FaRegFileImage className="attachment-icon" />
+          </div>
         </div>
       </div>
+      <a href="#" className="see-more poppins-regular-italic">
+        See more features
+      </a>
     </div>
   );
 }

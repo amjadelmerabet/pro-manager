@@ -1,3 +1,5 @@
+import { FaRegFileVideo } from "react-icons/fa6";
+
 import "./Overview.css";
 
 export default function Overview() {
@@ -15,7 +17,9 @@ export default function Overview() {
         </p>
         <button className="signup-button poppins-bold">Sign up for Free</button>
       </div>
-      <div className="video"></div>
+      <div className="video">
+        <FaRegFileVideo />
+      </div>
     </div>
   );
 }

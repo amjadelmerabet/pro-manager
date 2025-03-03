@@ -1,0 +1,24 @@
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 32px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+footer h3 {
+  margin-top: 16px;
+}
+
+.quick-links-section .quick-links,
+.social-media-section .social-media-links,
+.contact-section .contact-links {
+  list-style: none;
+  font-size: 15px;
+}
+
+footer ul li {
+  margin-left: 20px;
+  margin-block: 16px;
+}

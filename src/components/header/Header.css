@@ -3,6 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-block: 16px;
+  padding-inline: 100px;
 }
 
 header ul {
