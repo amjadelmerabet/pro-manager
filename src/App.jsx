@@ -2,7 +2,8 @@
 import './App.css'
 import Header from './components/header/header'
 import Overview from './components/overview/Overview'
-import PowerfulFeatures from './components/powerful-features/PowerfulFeatures'
+import Features from './components/features/Features'
+import DiveDeeper from './components/dive-deeper/DiveDeeper'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <main>
         <Overview />
-        <PowerfulFeatures />
+        <Features />
+        <DiveDeeper />
       </main>
     </div>
   )

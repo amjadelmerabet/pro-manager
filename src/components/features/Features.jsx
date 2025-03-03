@@ -4,9 +4,9 @@ import { PiUsersThree } from "react-icons/pi";
 import { HiOutlineChartPie } from "react-icons/hi2";
 import { HiOutlineSearch } from "react-icons/hi";
 
-import "./PowerfulFeatures.css";
+import "./Features.css";
 
-export default function PowerfulFeatures() {
+export default function Features() {
 
   return (
     <div className="features-section">
