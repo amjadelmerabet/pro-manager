@@ -1,24 +1,19 @@
-// import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router';
+import LandingRoute from './routes/LandingRoute';
+import LoginRoute from './routes/LoginRoute';
+
 import './App.css'
-import Header from './components/header/header'
-import Overview from './components/overview/Overview'
-import Features from './components/features/Features'
-import DiveDeeper from './components/dive-deeper/DiveDeeper'
-import Newsletter from './components/newsletter/Newsletter'
-import Footer from './components/footer/Footer'
 
 function App() {
 
   return (
     <div>
-      <Header />
-      <main>
-        <Overview />
-        <Features />
-        <DiveDeeper />
-        <Newsletter />
-      </main>
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingRoute />} />
+          <Route path="/login" element={<LoginRoute />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

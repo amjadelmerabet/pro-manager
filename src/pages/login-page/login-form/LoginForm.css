@@ -1,0 +1,71 @@
+.login-form {
+  width: 600px;
+  height: 560px;
+  background-color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 48px;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.login-form h2 {
+  font-size: 32px;
+}
+
+.form-inputs {
+  display: grid;
+  gap: 24px;
+}
+
+.form-inputs .username-input,
+.form-inputs .password-input {
+  width: 400px;
+  height: 65px;
+  display: grid;
+  font-size: 14px;
+}
+
+.form-inputs .username-input input,
+.form-inputs .password-input input {
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  padding-inline: 12px;
+}
+
+.form-inputs .useful-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.form-inputs .useful-links .forgot-password {
+  color: black;
+}
+
+.form-inputs .useful-links p {
+  margin-top: 8px;
+}
+
+.form-inputs .useful-links p a {
+  color: var(--link-default-color);
+}
+
+.login-form .sign-in-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  width: 200px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
