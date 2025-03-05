@@ -1,0 +1,29 @@
+.widgets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 32px auto;
+  gap: 32px;
+}
+
+.widgets .widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  width: 275px;
+  height: 165px;
+  margin-inline: auto;
+  border-radius: 10px;
+  padding-block: 16px;
+}
+
+.widgets .widget .widget-value {
+  font-size: 32px;
+}
+
+.widgets .widget a.show-list-link {
+  color: white;
+  font-size: 12px;
+}

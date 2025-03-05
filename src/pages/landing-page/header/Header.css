@@ -24,10 +24,10 @@ header ul li {
 
 .signin-section button {
   margin-inline: 8px;
-  padding: 8px;
+  padding: 4px;
   font-size: 16px;
   border: none;
-  background-color: white;
+  background-color: transparent;
   cursor: pointer;
 }
 
