@@ -1,8 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
-// import { LandingRoute, LoginRoute } from './routes';
-import LandingRoute from './routes/LandingRoute';
-import LoginRoute from './routes/LoginRoute';
-import { DashboardRoute } from "./routes/index"
+import { LoginRoute, LandingRoute, DashboardRoute, SettingsRoute } from "./routes/index"
 
 import './App.css'
 
@@ -15,6 +12,7 @@ function App() {
           <Route path="/" element={<LandingRoute />} />
           <Route path="/login" element={<LoginRoute />} />
           <Route path="/dashboard" element={<DashboardRoute />} />
+          <Route path="/settings" element={<SettingsRoute />} />
         </Routes>
       </BrowserRouter>
     </div>
