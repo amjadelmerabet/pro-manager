@@ -1,0 +1,127 @@
+.projects {
+  margin: 40px 100px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-header .icons {
+  display: flex;
+}
+
+.projects-header .view {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.projects-header .view .selected {
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.projects-header .view .non-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-header .filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.projects-header .filter::before {
+  content: "3";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  transform: translate(-75%, 0%);
+  width: 14px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  z-index: 10;
+}
+
+.projects .all-projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-block: 32px;
+  gap: 32px;
+  width: 1648px;
+  margin-inline: auto;
+}
+
+.projects .project {
+  width: 380px;
+  height: 210px;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 16px 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.project .project-title {
+  display: flex;
+  align-items: center;
+}
+
+.project .project-title .icon {
+  color: var(--primary-color);
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project .project-title .name {
+  font-size: 20px
+}
+
+.project .project-properties {
+  margin-top: 8px;
+}
+
+.project .project-properties tr > td {
+  padding-block: 4px;
+  padding-right: 16px;
+  font-size: 14px;
+}
+
+.project .updated {
+  position: absolute;
+  font-size: 11px;
+  color: var(--readonly-text);
+  bottom: 5%;
+  right: 5%;
+}
+
+.project .project-icon {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  color: var(--secondary-color);
+  transform: rotate(45deg);
+}
+
+.project .project-icon svg {
+  stroke-width: 1;
+}

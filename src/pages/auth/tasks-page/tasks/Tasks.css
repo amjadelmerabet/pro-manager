@@ -1,0 +1,81 @@
+.tasks {
+  margin: 40px 100px;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-header .icons {
+  display: flex;
+}
+
+.tasks-header .view {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.tasks-header .view .selected {
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.tasks-header .view .non-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-header .filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.all-tasks {
+  margin-block: 32px;
+}
+
+.all-tasks .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 16px;
+  padding: 16px 24px;
+  background-color: var(--accent-color);
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.all-tasks .task:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.all-tasks .task .task-properties {
+  display: flex;
+  justify-content: space-around;
+}
+
+.all-tasks .task .task-properties .pair {
+  margin-inline: 16px;
+  display: flex;
+}
+
+.all-tasks .task .task-properties .pair > div:nth-child(1) {
+  margin-right: 8px;
+}
+
+
+

@@ -4,6 +4,7 @@
   --accent-color: #CAF0F8;
   --link-default-color: #5125D6;
   --default-red: #DD0025;
+  --readonly-text: #858585;
 }
 
 * {
